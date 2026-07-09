@@ -21,6 +21,7 @@
       "type": "of-banner",
       "name": "Of Banner",
       "settings": {
+        "of_logo": "shopify://shop_images/banner_icon_097f45e6-df2f-4243-a722-291377e3b6fe.svg",
         "of_header_text": "Find the ideal gift for your loved ones.",
         "of_header_text_mobile": "Text goes here for mobile",
         "of_header_button_text": "Choose Gift",
