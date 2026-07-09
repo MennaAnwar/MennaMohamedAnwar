@@ -2,11 +2,8 @@
    Base Button
 ========================================== */
 .of-button {
-  position: relative;
   overflow: hidden;
-  color: #000;
-  background: #FFF544;
-  z-index: 1;
+
   position: relative;
   display: inline-flex;
   align-items: center;
