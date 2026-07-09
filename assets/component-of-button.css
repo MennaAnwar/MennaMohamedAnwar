@@ -15,6 +15,7 @@
   transition: color .35s ease, box-shadow .35s ease;
   background-color: #FFF544; 
   color: #000000;
+  overflow: hidden;
 }
 
 /* Sliding Background */
