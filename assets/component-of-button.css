@@ -1,5 +1,10 @@
+/* ===========================
+   Button Base
+=========================== */
+
 .of-button {
   position: relative;
+  display: inline-block;
 
   margin: 0;
   padding: 10px 20px;
@@ -17,13 +22,17 @@
   z-index: 1;
 }
 
+/* Sweep background */
 .of-button::before {
   content: "";
   position: absolute;
   inset: 0;
+
   background: #000;
+
   transform: translateX(-100%);
   transition: transform .35s ease;
+
   z-index: -1;
 }
 
@@ -36,12 +45,27 @@
   box-shadow: 0 2px 4px #00000033;
 }
 
+/* ===========================
+   Arrow
+=========================== */
+
 .of-button img {
   position: relative;
   z-index: 2;
+
   vertical-align: middle;
   margin-left: 10px;
+
+  content: url("https://cdn.shopify.com/s/files/1/0705/7807/7862/files/button_arrow_black.svg?v=1756367317");
 }
+
+.of-button:hover img {
+  content: url("https://cdn.shopify.com/s/files/1/0705/7807/7862/files/button_arrow_white.svg?v=1756361827");
+}
+
+/* ===========================
+   Secondary Button
+=========================== */
 
 .of-button-scandory {
   background: #000;
@@ -52,6 +76,14 @@
   background: #FFF544;
 }
 
+.of-button-scandory img {
+  content: url("https://cdn.shopify.com/s/files/1/0705/7807/7862/files/button_arrow_white.svg?v=1756361827");
+}
+
 .of-button-scandory:hover {
   color: #000;
+}
+
+.of-button-scandory:hover img {
+  content: url("https://cdn.shopify.com/s/files/1/0705/7807/7862/files/button_arrow_black.svg?v=1756367317");
 }
