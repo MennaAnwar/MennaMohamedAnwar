@@ -23,10 +23,10 @@
 }
 
 .of-product-collection-item img {
-  display: block;
   width: 100%;
-  aspect-ratio: 1 / 1.1; /* adjust if needed */
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  display: block;
 }
 
 /* Hotspot */
