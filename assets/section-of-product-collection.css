@@ -20,11 +20,12 @@
 .of-product-collection-item {
   position: relative;
   overflow: hidden;
+  aspect-ratio: 1 / 1;
 }
 
 .of-product-collection-item img {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
