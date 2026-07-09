@@ -5,7 +5,7 @@
 .of-button {
   position: relative;
   overflow: hidden;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
 
