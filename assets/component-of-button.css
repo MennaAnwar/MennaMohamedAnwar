@@ -16,6 +16,7 @@
   background-color: #FFF544; 
   color: #000000;
   overflow: hidden;
+  position: relative;
 }
 
 /* Sliding Background */
