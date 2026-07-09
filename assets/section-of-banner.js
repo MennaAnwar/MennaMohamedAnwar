@@ -1,8 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const menu = document.getElementById("of-menu");
-  const header = document.getElementById("of-header");
+const menu = document.getElementById("of-menu");
+const dropdown = document.getElementById("of-dropdown");
+const header = document.getElementById("of-header");
 
-  menu.addEventListener("click", () => {
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("DOM fully loaded and parsed");
+  menu.addEventListener("click", function () {
+    console.log("Menu clicked");
     header.classList.toggle("open");
   });
 });
