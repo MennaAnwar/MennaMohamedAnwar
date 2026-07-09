@@ -2,8 +2,6 @@
    Base Button
 ========================================== */
 .of-button {
-  overflow: hidden;
-
   position: relative;
   display: inline-flex;
   align-items: center;
