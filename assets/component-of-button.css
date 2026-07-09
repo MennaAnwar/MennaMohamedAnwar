@@ -25,9 +25,15 @@
   z-index: 0;          /* Important */
 }
 
-@media screen and (max-width: 749px) {
-  .of-button {
-    display: none !important;
+/* Default */
+.of-nav .of-button {
+  display: inline-flex;
+}
+
+/* Only affect mobile */
+@media (max-width: 749px) {
+  .of-nav .of-button.hide-on-mobile-menu {
+    display: none;
   }
 }
 
