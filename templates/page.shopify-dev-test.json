@@ -45,24 +45,24 @@
     "of_product_collection_cVBrXn": {
       "type": "of-product-collection",
       "blocks": {
-        "product_K8kBgR": {
+        "product_He3DMQ": {
           "type": "product",
           "settings": {
             "product": "black-leather-bag",
-            "of-pos-x": 50,
-            "of-pos-y": 50,
-            "of-pos-x-mobile": 50,
-            "of-pos-y-mobile": 50
+            "of-pos-x": 55,
+            "of-pos-y": 55,
+            "of-pos-x-mobile": 33,
+            "of-pos-y-mobile": 33
           }
         },
         "product_AhrfPd": {
           "type": "product",
           "settings": {
             "product": "blue-silk-tuxedo",
-            "of-pos-x": 50,
+            "of-pos-x": 70,
             "of-pos-y": 50,
-            "of-pos-x-mobile": 50,
-            "of-pos-y-mobile": 50
+            "of-pos-x-mobile": 67,
+            "of-pos-y-mobile": 33
           }
         },
         "product_bdcJqG": {
@@ -72,7 +72,7 @@
             "of-pos-x": 50,
             "of-pos-y": 50,
             "of-pos-x-mobile": 50,
-            "of-pos-y-mobile": 50
+            "of-pos-y-mobile": 67
           }
         },
         "product_zzdpjb": {
@@ -81,8 +81,8 @@
             "product": "classic-leather-jacket",
             "of-pos-x": 50,
             "of-pos-y": 50,
-            "of-pos-x-mobile": 50,
-            "of-pos-y-mobile": 50
+            "of-pos-x-mobile": 33,
+            "of-pos-y-mobile": 100
           }
         },
         "product_9kKtTV": {
@@ -91,8 +91,8 @@
             "product": "classic-varsity-top",
             "of-pos-x": 50,
             "of-pos-y": 50,
-            "of-pos-x-mobile": 50,
-            "of-pos-y-mobile": 50
+            "of-pos-x-mobile": 67,
+            "of-pos-y-mobile": 100
           }
         },
         "product_9hgY3D": {
@@ -102,12 +102,12 @@
             "of-pos-x": 50,
             "of-pos-y": 50,
             "of-pos-x-mobile": 50,
-            "of-pos-y-mobile": 50
+            "of-pos-y-mobile": 100
           }
         }
       },
       "block_order": [
-        "product_K8kBgR",
+        "product_He3DMQ",
         "product_AhrfPd",
         "product_bdcJqG",
         "product_zzdpjb",
