@@ -21,9 +21,23 @@
   background: #FFF544;
   color: #000;
 
-  transition: color .35s ease, box-shadow .35s ease;
+  
 
   z-index: 1;
+}
+
+.of-button { 
+  margin: 0; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: 400; 
+  text-decoration: none; 
+  line-height: 20.48px; 
+  letter-spacing: 0px; 
+  vertical-align: middle; 
+  transition: color .35s ease, box-shadow .35s ease;
+  background-color: #FFF544; 
+  color: #000000;
 }
 
 /* Sliding Background */
