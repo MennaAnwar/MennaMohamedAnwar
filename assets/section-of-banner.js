@@ -1,11 +1,10 @@
-const menu = document.getElementById("of-menu");
-const dropdown = document.getElementById("of-dropdown");
-const header = document.getElementById("of-header");
+document.addEventListener("DOMContentLoaded", () => {
+  const menu = document.getElementById("of-menu");
+  const header = document.getElementById("of-header");
+  const headerButton = header.querySelector(".of-nav .of-button");
 
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("DOM fully loaded and parsed");
-  menu.addEventListener("click", function () {
-    console.log("Menu clicked");
+  menu.addEventListener("click", () => {
     header.classList.toggle("open");
+    headerButton.classList.toggle("hide-on-mobile-menu");
   });
 });
