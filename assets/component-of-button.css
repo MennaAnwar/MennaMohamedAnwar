@@ -45,7 +45,7 @@
 }
 
 
-.of-button.sweep-link  {
+.of-button.sweep-link p {
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -55,7 +55,7 @@
 .of-button.sweep-link{
   z-index: 5;
 }
-.of-button.sweep-link  {
+.of-button.sweep-link p {
   content: "";
   position: absolute;
   left: 0;
