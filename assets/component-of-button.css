@@ -48,3 +48,25 @@
 .of-button:hover img {
   content: url("https://cdn.shopify.com/s/files/1/0705/7807/7862/files/button_arrow_white.svg?v=1756361827");
 }
+
+.of-button-scandory {
+  background: #000;
+  color: #fff;
+}
+
+.of-button-scandory::before {
+  background: #FFF544;
+  transform: translateX(-100%);
+}
+
+.of-button-scandory:hover {
+  color: #000;
+}
+
+.of-button-scandory img {
+  content: url("https://cdn.shopify.com/s/files/1/0705/7807/7862/files/button_arrow_white.svg?v=1756361827");
+}
+
+.of-button-scandory:hover img {
+  content: url("https://cdn.shopify.com/s/files/1/0705/7807/7862/files/button_arrow_black.svg?v=1756367317");
+}
