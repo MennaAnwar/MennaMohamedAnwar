@@ -25,6 +25,12 @@
   z-index: 0;          /* Important */
 }
 
+@media screen and (max-width: 749px) {
+  .of-button {
+    display: none !important;
+  }
+}
+
 /* Sliding background */
 .of-button::before {
   content: "";
