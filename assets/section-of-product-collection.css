@@ -6,7 +6,7 @@
 .of-product-collection {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
 }
 .of-product-collection-container .of-product-collection-heading {
   font-family: "lustria", sans-serif !important;
