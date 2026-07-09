@@ -6,7 +6,7 @@
 .of-product-collection {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 .of-product-collection-container .of-product-collection-heading {
   font-family: "lustria", sans-serif !important;
@@ -18,7 +18,7 @@
   margin: 0 0 20px 0;
 }
 .of-product-collection .of-product-collection-item {
-  flex: 0 0 calc(33% - 40px);
+  flex: 0 0 calc(33% - 20px);
   position: relative;
   display: inline-block;
 }
