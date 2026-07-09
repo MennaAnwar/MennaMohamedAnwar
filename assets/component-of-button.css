@@ -25,14 +25,14 @@
   z-index: 0;          /* Important */
 }
 
-/* Default */
+/* Desktop */
 .of-nav .of-button {
   display: inline-flex;
 }
 
-/* Only affect mobile */
+/* Mobile */
 @media (max-width: 749px) {
-  .of-nav .of-button.hide-on-mobile-menu {
+  #of-header.open .of-nav > .of-button {
     display: none;
   }
 }
