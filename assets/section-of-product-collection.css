@@ -25,7 +25,7 @@
 .of-product-collection-item img {
   width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
 }
 
